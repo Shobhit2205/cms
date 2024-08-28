@@ -12,7 +12,7 @@ const Logo = ({ onFooter = false }: { onFooter: boolean }) => {
       <div className="flex items-center gap-x-2 transition hover:opacity-90">
         <img
           src={
-            'https://appx-wsb-gcp.akamai.net.in/subject/2023-01-17-0.17044360120951185.jpg'
+            'https://d2szwvl7yo497w.cloudfront.net/courseThumbnails/main.png'
           }
           className="rounded-full"
           height={30}

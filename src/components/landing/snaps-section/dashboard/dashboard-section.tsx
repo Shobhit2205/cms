@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import dashboard from '@public/platform/dashboard.png';
 import { Button } from '../../../ui/button';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
@@ -42,7 +43,7 @@ const DashboardSection = () => {
           <div className="hidden rounded-l-xl bg-slate-200 py-3 pl-3 dark:bg-slate-800 md:block md:rounded-l-2xl md:py-6 md:pl-6">
             <CardItem>
               <Image
-                src={'/platform/dashboard.png'}
+                src={dashboard}
                 alt={'platform'}
                 width={1400}
                 height={1260}
